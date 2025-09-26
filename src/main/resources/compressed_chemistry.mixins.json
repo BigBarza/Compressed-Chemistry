@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pression.compressed_chemistry.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "compressed_chemistry.refmap.json",
+  "mixins": [
+    "ChemicalColorMixin"
+  ],
+  "client": [
+    "ChemicalRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
